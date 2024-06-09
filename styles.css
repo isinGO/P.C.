@@ -1,0 +1,398 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+    height: 90px;
+    width: 99%;
+    text-align: center;
+    display: inline-block;
+    justify-content: space-around;
+} 
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.nav {
+    width: 80%;
+    margin: 20px auto ; /* Додали 20px відступу зверху */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 5px 15px; /* Додали внутрішній відступ для створення овалу */
+    border-radius: 50%; /* Закруглені кути для створення овалу */
+    background-color: rgba(246, 244, 244, 1); /* Сірий колір фону овалу */
+    color: rgba(163, 140, 140, 1);
+}
+
+.smlogo{
+    width: 50px;
+}
+
+.line-container {
+    text-align: center; /* Центруємо вміст по горизонталі */
+}
+
+.line-image {
+    width: 80%; /* Автоматично встановлюємо ширину зображення */
+    height: 5px; /* Задаємо бажану висоту лінії */
+    display: inline-block; /* Забезпечуємо відображення картинки як блочного елемента */
+}
+
+
+.main_text{
+    text-align: center;
+    font-size: 66px;
+}
+
+.main_2{
+  text-align: center;
+    font-size: 40px;
+}
+
+.section_1 {
+    background-image: linear-gradient(to top, rgba(156, 156, 156, 1), rgba(255, 255, 255, 0));
+    position: relative;
+    text-align: center;
+    background-image: url(/src/Intersect2.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 70% 40%;
+    margin: auto;
+    height: 700px;
+}
+
+.img1 {
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+
+.img3 {
+    position: absolute;
+    right: 25%; /* Зміщення вправо на 20 пікселів */
+    top: 10px; /* Зміщення вниз на 10 пікселів */
+}
+
+.text_block {
+    position: absolute; /* Встановлюємо позицію блоків абсолютно */
+    max-width: 300px;
+}
+
+.text1 {
+    font-family: "Arial", sans-serif;
+    top: 70%; /* Позиціонуємо верхню частину першого блоку на половину відступу від верху */
+    left: 5%; /* Задаємо випадкове положення по горизонталі */
+    transform: rotate(-5deg); /* Нахиляємо блок на -5 градусів */
+}
+
+.text2 {
+    font-family: "Courier New", monospace;
+    top: 60%; /* Позиціонуємо верхню частину другого блоку */
+    left: 15%; /* Задаємо випадкове положення по горизонталі */
+}
+
+.text3 {
+    font-family: "Comic Sans MS", cursive;
+    top: 70%; /* Позиціонуємо верхню частину третього блоку */
+    left: 60%; /* Задаємо випадкове положення по горизонталі */
+    transform: rotate(3deg); /* Нахиляємо блок на 3 градуси */
+    color: rgba(158, 158, 158, 1);
+}
+
+.text4 {
+    font-family: "Verdana", sans-serif;
+    top: 60%; /* Позиціонуємо верхню частину четвертого блоку */
+    left: 70%; /* Задаємо випадкове положення по горизонталі */
+    transform: rotate(-2deg); /* Нахиляємо блок на -2 градуси */
+}
+
+
+
+
+
+.phone-benefits {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .benefit-item {
+    width: calc(30% - 30px);
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .benefit-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .benefit-item p {
+    font-size: 1.6rem;
+    color: #666;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  * {
+    outline: none;
+  }
+  
+  .timeline-carousel {
+    padding: 86px 6.9444% 90px 6.9444%;
+    position: relative;
+    background-color: #1d1d1e;
+    overflow: hidden;
+  }
+  .timeline-carousel:after, .timeline-carousel:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    height: 100%;
+    width: 6.9444%;
+    background-color: #1d1d1e;
+    z-index: 3;
+    width: 6.9444%;
+  }
+  .timeline-carousel:after {
+    left: 0;
+  }
+  .timeline-carousel:before {
+    right: 0;
+    opacity: 0;
+  }
+  .timeline-carousel .slick-list {
+    overflow: visible;
+  }
+  .timeline-carousel .slick-dots {
+    bottom: -73px;
+  }
+  .timeline-carousel h1 {
+    color: white;
+    font-size: 46px;
+    line-height: 50pd;
+    margin-bottom: 40px;
+    font-weight: 900;
+  }
+  .timeline-carousel__image {
+    padding-right: 30px;
+  }
+  .timeline-carousel__item {
+    cursor: pointer;
+  }
+  .timeline-carousel__item .media-wrapper {
+    opacity: 0.4;
+    padding-bottom: 71.4%;
+    -webkit-transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    -o-transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+  .timeline-carousel__item:last-child .timeline-carousel__item-inner:after {
+    width: calc(100% - 30px);
+  }
+  .timeline-carousel__item-inner {
+    position: relative;
+    padding-top: 45px;
+  }
+  .timeline-carousel__item-inner:after {
+    position: absolute;
+    width: 100%;
+    top: 45px;
+    left: 0;
+    content: "";
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .timeline-carousel__item-inner .year {
+    font-size: 36px;
+    line-height: 36px;
+    color: white;
+    display: table;
+    letter-spacing: -1px;
+    padding-right: 10px;
+    background-color: #1d1d1e;
+    z-index: 1;
+    position: relative;
+    margin: -15px 0 20px;
+    font-weight: 900;
+  }
+  .timeline-carousel__item-inner .year:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: -10px;
+    top: 0;
+    height: 100%;
+    width: 10px;
+    background-color: #1d1d1e;
+    z-index: 3;
+  }
+  .timeline-carousel__item-inner .month {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #b38c52;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 900;
+  }
+  .timeline-carousel__item-inner p {
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    width: 60%;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  .timeline-carousel__item-inner .read-more {
+    font-size: 12px;
+    color: #b38c52;
+    display: table;
+    margin-bottom: 10px;
+    font-weight: 900;
+    text-decoration: none;
+    position: relative;
+  }
+  .timeline-carousel__item-inner .read-more:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0;
+    border-bottom: 2px solid #b38c52;
+    -webkit-transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    -o-transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+  .timeline-carousel__item-inner .read-more:hover:after {
+    width: 100%;
+  }
+  .timeline-carousel__item-inner .pointer {
+    height: 29px;
+    position: relative;
+    z-index: 1;
+    margin: -4px 0 16px;
+  }
+  .timeline-carousel__item-inner .pointer:after, .timeline-carousel__item-inner .pointer:before {
+    position: absolute;
+    content: "";
+  }
+  .timeline-carousel__item-inner .pointer:after {
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+    background-color: #b38c52;
+  }
+  .timeline-carousel__item-inner .pointer:before {
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 4px;
+    background-color: #b38c52;
+  }
+  .timeline-carousel .slick-active .media-wrapper {
+    opacity: 1 !important;
+  }
+  
+  .slick-dots {
+    bottom: 60px;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    z-index: 2;
+  }
+  .slick-dots li {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 6px;
+    position: relative;
+    width: 10px;
+    height: 10px;
+  }
+  .slick-dots li:last-child {
+    margin-right: 0;
+  }
+  .slick-dots li.slick-active button {
+    background: #b38c52;
+    border-color: #b38c52;
+  }
+  .slick-dots li button {
+    display: block;
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    -webkit-transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    -o-transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+  .slick-dots li button:hover {
+    background: #b38c52;
+    border-color: #b38c52;
+  }
+  
+  .link {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    z-index: 9999;
+  }
+  .link a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+  .link .fa {
+    font-size: 28px;
+    margin-right: 8px;
+    color: #fff;
+  }
